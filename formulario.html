@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Pesquisa de satisfação</h1>
+        <form action="pagina_destino.html" method="post">
+            <p>
+                <label for="To send">Nome completo:</label>
+                <input type="text" placeholder="Seu nome" id="To send"/>
+            </p>
+            <p>
+                <label for="To send">E-mail:</label>
+                <input type="text" placeholder="Seu e-mail" id="To send"/>
+            </p>
+            <p>
+                <label for="To send">Telefone para contato:</label>
+                <input type="number" placeholder="Número para contato" id="To send"/>
+            </p>
+
+            <p>
+                Considerando "ótimo", "bom" e "ruim", avalie o atendimento oferecido.
+            </p>
+            <p>
+                <input type="radio" id="Ótimo" name="avaliação-atendimento"/>
+                <label for="Ótimo">Ótimo</label>
+                <input type="radio" id="Bom" name="avaliação-atendimento"/>
+                <label for="Bom">Bom</label>
+                <input type="radio" id="Ruim" name="avaliação-atendimento"/>
+                <label for="Ruim">Ruim</label>
+            </p>
+            <p>
+                Considerando "ótimo", "bom" e "ruim", avalie a variedade de produtos oferecidos.
+            </p>
+            <p>
+                <input type="radio" id="Ótimo2" name="avaliação-variedade"/>
+                <label for="Ótimo2">Ótimo</label>
+                <input type="radio" id="Bom2" name="avaliação-variedade"/>
+                <label for="Bom2">Bom</label>
+                <input type="radio" id="Ruim2" name="avaliação-variedade"/>
+                <label for="Ruim2">Ruim</label>
+            </p>
+            <p>
+                Conheci a loja através de:
+                <select>
+                    <option>Instagram</option>
+                    <option>Facebook</option>
+                    <option>WhatsApp</option>
+                    <option>Recomendação de um amigo</option>
+                    <option>Panfletos</option>
+                    <option>NDA</option>
+                </select>
+            </p>
+            <p>
+            <input type="checkbox" id="termos"/>
+            <label for="termos"><strong>Li e concordo</strong> com os termos de uso de dados fornecidos à pesquisa</label>
+            </p>
+            <p>
+            <input type="submit" value="To send"/>
+            </p>
+        </form>
+    </body>
+</html>
