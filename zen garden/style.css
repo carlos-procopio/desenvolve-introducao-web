@@ -1,0 +1,15 @@
+:root {
+  --cor-fundo: #ffffff;   /* branco */
+  --cor-texto: #000000;   /* preto */
+  --cor-destaque: #007bff; /* azul */
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: var(--cor-destaque);
+}
